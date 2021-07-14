@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=${VERSION}
+Name=${HIILLOS_TARGET}
+Comment=Gempyre app
+Exec=${HIILLOS_TARGET}
+Icon=${HIILLOS_TARGET}.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
