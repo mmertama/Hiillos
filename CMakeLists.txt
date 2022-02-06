@@ -233,7 +233,11 @@ option(JSON_BuildTests OFF)
 FetchContent_MakeAvailable(json)
 include_directories(${json_SOURCE_DIR}/include)
 
- if(OS_LINUX)
+#
+# Image magic for Linux icons 
+#
+
+if(OS_LINUX)
     find_package(ImageMagick COMPONENTS Magick++)
     if(NOT ImageMagick_Magick++_FOUND)
         if(EXISTS "/usr/include/GraphicsMagick")
