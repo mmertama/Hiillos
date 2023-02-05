@@ -20,7 +20,7 @@ Then for OSX and Linux install it
 sudo cmake --install .
 
 
-### Windosw spesific
+### Windows spesific
 
 For MSVC you have to do compile in the  x64 Native Tools Command Prompt for VS 2019 (others may work as well, but not tested).
 
